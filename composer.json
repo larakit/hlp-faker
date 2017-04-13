@@ -1,0 +1,26 @@
+{
+    "name": "larakit/hlp-faker",
+    "description": "[Larakit] [helper] faker",
+    "keywords": [
+        "laravel 5",
+        "laravel",
+        "larakit"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexey Berdnikov",
+            "email": "aberdnikov@gmail.com"
+        }
+    ],
+    "require": {
+        "fzaninotto/faker": "*",
+        "larakit/lk-twig": "*"
+    },
+    "autoload": {
+        "files": [
+            "src/init.php"
+        ]
+    },
+    "minimum-stability": "dev"
+}
